@@ -1,0 +1,339 @@
+body{
+  background-color: #edffec;
+  margin: 0;
+  color: #5c5757;
+  font-family: 'Hind Madurai', sans-serif;
+}
+h1{
+  font-family: 'Abril Fatface', cursive;
+   /* letter-spacing: 2px; */
+}
+h2{
+  font-family: 'Abril Fatface', cursive;
+}
+h3{
+  font-family: 'Abril Fatface', cursive;
+   /* letter-spacing: 2px; */
+}
+.Website-Subtitle{
+  margin-left: 300px;
+
+}
+.Website-Heading{
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.Header{
+  background-color: #caf7e3;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  margin: 0;
+  padding-bottom: 320px;
+}
+.Logo{
+  background-color: #e4bad4;
+  position: relative;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-left: 300px;
+
+}
+.Logo-Name{
+  padding-top: 35px;
+  text-align: center;
+}
+.Menu{
+  margin-left: 200px;
+  display: inline-block;
+  background-color: #e4bad4;
+  padding-left: 10px;
+  height: 60px;
+  width: 450px;
+}
+.Home{
+  display: inline-block;
+  background-color: #f6dfeb;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+}
+.Menu-Name{
+  text-align: center;
+  display: inline-block;
+  margin: 10px 20px;
+}
+.right-arrow{
+  position: absolute;
+  top: 400px;
+  right: 20px;
+  display: inline;
+  height: 50px;
+  width: 50px;
+
+}
+.left-arrow{
+  position: absolute;
+  top: 400px;
+  left: 20px;
+  display: inline;
+  height: 50px;
+  width: 50px;
+}
+.Dots{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 600px;
+  left: 680px;
+
+}
+/* .First-Dot{
+  background-color: #e4bad4;
+  position: relative;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 600px;
+  margin-top: 300px;
+}
+.Second-Dot{
+  background-color: #f6dfeb;
+  display: inline;
+  position: relative;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 650px;
+  /* margin-top: 300px; */
+
+/* }
+.Third-Dot{
+  background-color: #f6dfeb;
+  display: inline;
+  position: relative;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 700px;
+  margin-top: 300px;
+
+} */
+.About-Us{
+  position: relative;
+  width: 50%;
+  margin: 100px auto;
+  padding-bottom: 100px;
+}
+.Company-Image{
+  position: relative;
+  background-color: #caf7e3;
+  height: 300px;
+  width: 300px;
+}
+.About-Us-Description{
+  position: relative;
+  text-align: left;
+  margin-left: 50px;
+
+}
+.BUTTON_DXY {
+   background: #CAF7E3;
+   background-image: -webkit-linear-gradient(top, #CAF7E3, #25F397);
+   background-image: -moz-linear-gradient(top, #CAF7E3, #25F397);
+   background-image: -ms-linear-gradient(top, #CAF7E3, #25F397);
+   background-image: -o-linear-gradient(top, #CAF7E3, #25F397);
+   background-image: -webkit-gradient(to bottom, #CAF7E3, #25F397);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   font-size: 31px;
+   font-weight: 400;
+   padding: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #560336;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   height: 31px;
+   margin-top: 100px;
+   margin-left: 270px;
+
+}
+
+.BUTTON_DXY:hover {
+   border: solid #E4BAD4 1px;
+   background: #E4BAD4;
+   background-image: -webkit-linear-gradient(top, #E4BAD4, #DD5EAD);
+   background-image: -moz-linear-gradient(top, #E4BAD4, #DD5EAD);
+   background-image: -ms-linear-gradient(top, #E4BAD4, #DD5EAD);
+   background-image: -o-linear-gradient(top, #E4BAD4, #DD5EAD);
+   background-image: -webkit-gradient(to bottom, #E4BAD4, #DD5EAD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+   height: 31px;
+   margin-top: 100px;
+   margin-left: 270px;
+}
+.Sponsors{
+  background-color: #caf7e3;
+  padding-bottom: 100px;
+}
+.Sponsors-Heading{
+  margin-top: 100px;
+}
+.Sponsor-text{
+  padding-top: 50px;
+  text-align: center;
+}
+.Sponsor-Desc{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.Box1{
+
+  position: relative;
+  left: 200px;
+  /* right: 50px; */
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: #f6dfeb;
+  margin: 0;
+
+}
+.Box2{
+  position: relative;
+  /* left: 50px;
+  right: 50px; */
+
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: #f6dfeb;
+  margin: 0;
+
+}
+.Box3{
+  position: relative;
+  /* left: 50px;
+  right: 50px; */
+
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: #f6dfeb;
+  margin: 0;
+
+}
+.Box4{
+  position: relative;
+  /* left: 50px;
+  right: 50px; */
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: #f6dfeb;
+  margin: 0;
+
+}
+.Box5{
+  position: relative;
+  /* left: 50px;
+  right: 50px; */
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: #f6dfeb;
+  margin: 0;
+
+}
+.Box6{
+  position: relative;
+  /* left: 50px;
+  right: 50px; */
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: #f6dfeb;
+  margin: 0;
+
+}
+.Footer{
+  background-color: #5aa897;
+  color: #f3f2f2;
+}
+.Contact-Us{
+  margin-left: 120px;
+  padding: 50px 80px 30px 100px;
+}
+.Contact-us-desc{
+  text-align: left;
+}
+.Your-Name{
+  width: 70%;
+  background-color: #2f5d62
+}
+.Your-Email{
+  width: 80%;
+  background-color: #2f5d62
+
+}
+.Your-Message{
+  height: 100px;
+  background-color: #2f5d62;
+}
+.Sitemap{
+  margin-left: 100px;
+  width: 350px;
+  height: 300px;
+}
+.Footer-Logo{
+  height: 400px;
+  width: 480px;
+}
+.Logo2{
+  background-color: #e4bad4;
+  position: absolute;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+
+}
+.Business-Contact-Table{
+margin-top: 100px;
+padding-top: 150px;
+
+}
+.icon{
+  height: 30px;
+  width: 30px;
+}
+.table-content{
+  padding-left: 20px;
+}
+.Copyright{
+  background-color: #2f5d62;
+  height: 30px;
+}
+.Copyright-Text{
+  color: #f3f2f2;
+  font-size: 15px;
+  margin: 0;
+  padding-left: 575px;
+  padding-top: 5px;
+}
+.Logo2-Text{
+  color: #4d4d4d;
+  text-align: center;
+  padding-top: 15px;
+}
